@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/css/main.cda59312.css",
-    "main.js": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/js/main.1a1e9b5f.js",
+    "main.css": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/css/main.5ad215a7.css",
+    "main.js": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/js/main.efdee8f6.js",
     "index.html": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/index.html",
-    "main.cda59312.css.map": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/css/main.cda59312.css.map",
-    "main.1a1e9b5f.js.map": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/js/main.1a1e9b5f.js.map"
+    "main.5ad215a7.css.map": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/css/main.5ad215a7.css.map",
+    "main.efdee8f6.js.map": "/AlexandraKrosnik/goit-react-hw-02-feedback.git/static/js/main.efdee8f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.cda59312.css",
-    "static/js/main.1a1e9b5f.js"
+    "static/css/main.5ad215a7.css",
+    "static/js/main.efdee8f6.js"
   ]
 }
