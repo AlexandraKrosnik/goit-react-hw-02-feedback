@@ -31,10 +31,12 @@ export class App extends Component {
   render() {
     let options = Object.keys(this.state);
     let total = this.countTotalFeedback();
+    let positive = this.countPositiveFeedbackPercentage();
+
     let statistics = {
       ...this.state,
-      total: [total],
-      positive: this.countPositiveFeedbackPercentage(),
+      total,
+      positive: isNaN(positive) ? 0 : positive,
     };
 
     return (

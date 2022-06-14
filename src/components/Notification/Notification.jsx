@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { Message } from './Notification.styled';
+import PropTypes from 'prop-types';
 
 export default class Notification extends Component {
   render() {
@@ -7,3 +8,7 @@ export default class Notification extends Component {
     return <Message>{message}</Message>;
   }
 }
+
+Notification.propTypes = {
+  message: PropTypes.string.isRequired,
+};
