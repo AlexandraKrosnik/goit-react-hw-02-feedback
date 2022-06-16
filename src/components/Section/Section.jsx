@@ -7,8 +7,8 @@ export default class Section extends Component {
     let { title, children } = this.props;
     return (
       <>
-        <FeedbackTitle>{title}</FeedbackTitle>
-        {children}
+        {!!title && <FeedbackTitle>{title}</FeedbackTitle>}
+        {!!children && children}
       </>
     );
   }

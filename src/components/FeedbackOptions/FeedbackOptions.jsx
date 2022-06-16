@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import { OptionList, FeedbackItem } from './FeedbackOptions.styled';
-import shortid from 'shortid';
 import PropTypes from 'prop-types';
 
 export default class FeedbackOptions extends Component {
@@ -11,7 +10,7 @@ export default class FeedbackOptions extends Component {
         {options.map(option => {
           return (
             <FeedbackItem
-              key={shortid.generate()}
+              key={option}
               type="button"
               name={option}
               onClick={onFeedbackLeave}
@@ -26,6 +25,6 @@ export default class FeedbackOptions extends Component {
 }
 
 FeedbackOptions.propTypes = {
-  options: PropTypes.array.isRequired,
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onFeedbackLeave: PropTypes.func.isRequired,
 };
